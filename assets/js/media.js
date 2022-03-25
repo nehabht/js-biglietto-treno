@@ -17,7 +17,7 @@ const prezzo_normale = prezzo_biglietto
 
 if (anni_utente < 18){
     var prezzo_minorenni = prezzo_biglietto - (prezzo_biglietto * 20 / 100);  
-} else if (anni_utente > 64){
+} else if (anni_utente > 65){
     var prezzo_over65 = prezzo_biglietto - (prezzo_biglietto * 40 / 100);
 } else {
     
